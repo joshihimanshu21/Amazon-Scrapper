@@ -63,7 +63,7 @@ class AmazonScrapper:
         self.asin = list(self.asin)
         temp = [i for i in self.asin if i.startswith('B')]
         self.asin = temp
-        print(self.asin)    #list of Asin Codes
+        #print(self.asin)    #list of Asin Codes
 
     def opening_url_on_asin(self):
         """
